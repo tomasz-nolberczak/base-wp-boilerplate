@@ -1,0 +1,58 @@
+@import '../../../node_modules/bootstrap/scss/bootstrap';
+
+
+html {
+  overflow-x: hidden;
+  margin-top: 0 !important;
+}
+
+.animated {
+  opacity: 0;
+}
+
+.single-input {
+  display: block;
+  width: 100%;
+  border: none;
+  margin-bottom: 20px;
+
+  input, textarea {
+    outline: none !important;
+    @include transSpecifiedParam(border-color 300ms ease-out);
+
+    &:focus {
+      border-color: #1d1e1f;
+    }
+  }
+
+
+  input {
+    height: 47px;
+    display: block;
+    width: 100%;
+    padding: 0 15px;
+    border: solid 1px #cccccc;
+    &.error {
+      border-color: red;
+    }
+  }
+  textarea {
+    resize: none;
+    display: block;
+    padding: 15px;
+    width: 100%;
+    border: solid 1px #cccccc;
+    &.error {
+      border-color: red;
+    }
+  }
+  label {
+    margin-bottom: 17px;
+    
+    &.error {
+      display: none !important;
+    }
+  }
+  
+
+}
