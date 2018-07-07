@@ -1,4 +1,5 @@
-## Base WordPress Boilerplate
+![Base WordPress Boilerplate](https://raw.githubusercontent.com/tomasz-nolberczak/base-wp-boilerplate/master/screenshot-1.jpg)
+
 
 Base is just another boilerplate for building WordPress websites. Stop wasting your time on building structure for WordPress site every time you starting works on new site. Will it be your _last_ boilerplate? Let's try it out!
 
