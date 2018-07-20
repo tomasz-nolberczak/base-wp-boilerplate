@@ -24,3 +24,8 @@ require_once __DIR__ . '/carbon-fields.php';
  * Ajax
  */
 require_once __DIR__ . '/ajax/_index.php';
+
+/*
+ * Modules
+ */
+require_once __DIR__ .'/modules/wp_minificator.php';
