@@ -1,3 +1,3 @@
 <?php
 
-get_all_php_files_from_dir(__DIR__ . '/');
+get_all_php_files_from_dir();

@@ -4,9 +4,8 @@ var uglify = require("gulp-uglify");
 var sass = require('gulp-sass');
 var refresh = require('gulp-refresh');
 var babel = require('gulp-babel');
-var gutil = require('gulp-util');
 var plumber = require('gulp-plumber');
-var notify = require("gulp-notify");
+var notify = require('gulp-notify');
 
 /**
  * Task for compiling SCSS files

@@ -3,11 +3,13 @@
 /*
  * It includes every PHP file within directory in $dir param
  * */
-function get_all_php_files_from_dir($dir)
+function get_all_php_files_from_dir($dir = null)
 {
+    if ($dir === null) $dir = __DIR__ . '/';
+
     foreach (glob($dir . '*.php') as $filename)
     {
-        include $filename;
+        include_once $filename;
     }
 }
 
