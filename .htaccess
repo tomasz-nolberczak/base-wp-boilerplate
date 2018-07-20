@@ -1,0 +1,12 @@
+RewriteCond %{QUERY_STRING} ^author=([0-9]*)
+RewriteRule ^ /? [L,R=301]
+
+<Files xmlrpc.php>
+  Order deny,allow
+  Deny from all
+</Files>
+
+<FilesMatch "readme\.html">
+  Order allow,deny
+  Deny from all
+</FilesMatch>
